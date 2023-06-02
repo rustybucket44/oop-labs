@@ -11,12 +11,12 @@ namespace MainNamespace{
         	        break;
         	    }
         	    if (arr[i]-arr[i+1] == arr[i+1] - arr[i+2]){
-        	        Console.Write($"Elements #{i}, #{i+1} and #{i+2} form a progression\n");
+        	        Console.Write($"\nElements #{i}, #{i+1} and #{i+2} form a progression\n");
         	        happened = true;
         	    }
         	}
         	if (happened == false){
-        	    Console.Write("No progressions encountered\n");
+        	    Console.Write("\nNo progressions encountered\n");
         	}
         }
     }

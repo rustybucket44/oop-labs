@@ -2,7 +2,7 @@ using System;
 namespace MainNamespace{
     class MainClass{
         static void Main(string[] args) {
-        	IPercentNum numba = new PercentNum(200.0);
+        	PercentNum numba = new PercentNum(200.0);
     		Console.WriteLine($"numba: {numba.Value}; ");
     		Console.WriteLine($"numba 50% (just show): {numba.getPercent(50)}; ");
     		numba.incPercent(25);
